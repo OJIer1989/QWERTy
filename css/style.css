@@ -30,6 +30,7 @@ header{
  height: 1573px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: bottom;
 }
 .header-top{
   display: flex;
@@ -141,10 +142,122 @@ margin-top: 196px;
 }
 .tengarra{
   display: flex;
+  gap: 232px;
+  align-items: center;
+  margin-top: -100px;
+margin-bottom: 250px;
+}
+.tengara-img,
+.section-text{
+  width: 50%;
+}
+.section-text{
+  height: 546px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .enjoy-text{
-  margin-bottom: 27px;
+  margin-left: 96px;
+}
+.text-info{
+  font-size: 64px;
+  line-height: 87px;
+  font-weight: 700;
+}
+.enjoy-info{
+    max-width: 555px;
+}
+.section-text>span{
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 600;
+}
+.read-more_btn{
+  color: #FBD784;
+}
+.fa-arrow-right{
+  color: #FBD784;
+}
+.bromo-body{
+  background: url(../image/bromo-bg.png),linear-gradient(360deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 109.55%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 985px;
+  display: flex;
+  align-items: flex-end;
+justify-content: space-between;
+padding: 41px 46px;
+ margin-bottom: 226px;
+}
+.fa-chevron-left,
+.fa-chevron-right{
+align-self: center;
 }
 
+
+.bromo-text{
+  height: 430px;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+align-items: center;
+}
+.bromo-info {
+  width: 95px;
+}
+.bromo-info::after{
+    content: "";
+      position: absolute;
+      width: 74px;
+      height: 2px;
+      background: #FFC178;
+      right: -95px;
+      top: 12px;
+}
+.bromo-together{
+  width: 705px;
+  font-size: 64px;
+  line-height: 87px;
+  text-align: center;
+}
+.bromo-text>span{
+width: 934px;
+font-size: 18px;
+line-height: 32px;
+}
+.row-revers{
+  flex-direction: row-reverse;
+  margin-top: 0;
+}
+.footer-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 47px;
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.3);
+  align-items: center;
+}
+.footer-logo{
+  font-size: 48px;
+  line-height: 65px;
+  letter-spacing: 1%;
+}
+.get-started>span{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 400;
+}
+.footer-btn{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 17px;
+  line-height: 22px;
+  padding: 24px 72px;
+  font-weight: 700;
+  background: #FFA343;
+  border-radius: 8px;
+  color: #000;
+  margin-left: 55px;
+}
 
 
