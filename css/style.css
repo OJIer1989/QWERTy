@@ -183,12 +183,13 @@ margin-bottom: 250px;
   background: url(../image/bromo-bg.png),linear-gradient(360deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 109.55%);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 985px;
+ min-height: 985px;
   display: flex;
   align-items: flex-end;
 justify-content: space-between;
 padding: 41px 46px;
  margin-bottom: 226px;
+
 }
 .fa-chevron-left,
 .fa-chevron-right{
@@ -197,7 +198,7 @@ align-self: center;
 
 
 .bromo-text{
-  height: 430px;
+ min-height: 430px;
 display: flex;
 justify-content: space-between;
 flex-direction: column;
@@ -216,13 +217,13 @@ align-items: center;
       top: 12px;
 }
 .bromo-together{
-  width: 705px;
+max-width: 705px;
   font-size: 64px;
   line-height: 87px;
   text-align: center;
 }
 .bromo-text>span{
-width: 934px;
+max-width: 934px;
 font-size: 18px;
 line-height: 32px;
 }
