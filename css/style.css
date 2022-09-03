@@ -86,6 +86,9 @@ margin-right: 396px;
   margin-left: 32px;
     margin-top: 52px;
 }
+.follow-us>a{
+  color: #fff;
+}
 .follow-text{
   display: inline-block;
 transform: rotate(90deg);
@@ -183,19 +186,17 @@ margin-bottom: 250px;
   background: url(../image/bromo-bg.png),linear-gradient(360deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 109.55%);
   background-repeat: no-repeat;
   background-size: cover;
- min-height: 985px;
+  height: 985px;
   display: flex;
   align-items: flex-end;
 justify-content: space-between;
 padding: 41px 46px;
  margin-bottom: 226px;
-
 }
 .fa-chevron-left,
 .fa-chevron-right{
 align-self: center;
 }
-
 
 .bromo-text{
  min-height: 430px;
@@ -231,10 +232,13 @@ line-height: 32px;
   flex-direction: row-reverse;
   margin-top: 0;
 }
+.row-revers>.section-text{
+  margin-left: 42px;
+}
 .footer-header{
   display: flex;
   justify-content: space-between;
-  padding: 12px 47px;
+  padding: 12px 47px 75px 0;
   border-bottom: 1.5px solid rgba(255, 255, 255, 0.3);
   align-items: center;
 }
@@ -259,6 +263,57 @@ line-height: 32px;
   border-radius: 8px;
   color: #000;
   margin-left: 55px;
+}
+.footer-middle{
+  padding: 55px 96px 101px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.form-body{
+  max-width: 400px;
+ 
+}
+.form-text{
+font-size: 36px;
+line-height: 49px;
+margin-bottom: 50px;
+}
+.form-input{
+width: calc(100% - 75px);
+height: 70px;
+padding: 19px 31px 14px 20px;
+}
+.form-btn{
+  width: 69px;
+  height: 69px;
+  background: #FFA343;
+  border-radius: 8px 8px 0px 0px;
+  vertical-align: bottom;
+  border: none;
+}
+.form-body>form{
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.3);
+}
+.form-input{
+  border: none;
+  background-color: inherit;
+    color: rgba(255, 255, 255, 0.3);
+}
+.form-input::placeholder{
+  font-size: 15px;
+  line-height: 20px;  
+  color: rgba(255, 255, 255, 0.3);
+}
+.footer-info{
+  font-size: 20px;
+  letter-spacing: -0.23px;
+  color: #FFD1A0;
+  margin-bottom: 45px;
+}
+.footer-link{
+  font-size: 19px;
+  letter-spacing: -0.2px;
+  font-weight: 400;
 }
 
 
