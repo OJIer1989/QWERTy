@@ -616,7 +616,7 @@ max-height: 950px;
       width: 100%;
     }
     .section-text>span{
-      font-size: 9px;
+      font-size: 11px;
       line-height: 20px;
     }
     .bromo-body{
@@ -632,7 +632,7 @@ max-height: 950px;
       width: 20px;
     }
     .text-info{
-      font-size: 23px;
+      font-size: 30px;
     }
     .tengarra{
       margin-bottom: 65px;
@@ -642,10 +642,13 @@ max-height: 950px;
       right: -35px;
       width: 30px;
     }
-      .text{
-        font-size: 7px;
+    .row-revers>.section-text{
+      margin-left: 0;
+    }
+    .text{
+        font-size: 9px;
         text-align: center;
-      }
+    }
       .bromo-text>.text::before{
         width: 30px;
         height: 1px;
@@ -708,3 +711,66 @@ max-height: 950px;
      }
 }
 
+@media(max-width: 395px){
+  .header-top{
+    padding: 40px 0;
+  }
+  .content{
+    margin-top: 15px;
+  }
+  .header-middle{
+    margin-top: 30px;
+  }
+  .follow-us{
+    margin-top: 25px;
+  }
+  .fa-brands{
+    margin-bottom: 15px;
+  }
+.text{
+  font-size: 6px;
+}
+.text{
+  margin-left: 44px;
+}
+.text::before{
+  width: 25px;
+  left: -40px;
+}
+.row-revers>.section-text{
+  margin-left: 0;
+}
+.header-info{
+  font-size: 40px;
+}
+.header-info>span{
+  font-size: 28px;
+}
+.social-info{
+  font-size: 7px;
+  margin-right: 0;
+}
+.social-info:first-child{
+  margin-right: 5px;
+}
+.footer-fa{
+  margin-left: 25px;
+}
+.footer-social{
+  padding: 0;
+}
+.form-input{
+  width: calc(380px - 77px);
+}
+.form-body>form{
+  width: 368px;
+}
+.footer-social{
+  margin-bottom: 35px;
+}
+.Copyright>span {
+  font-size: 13px;
+}
+.Copyright{
+  margin-bottom: 60px;
+}
