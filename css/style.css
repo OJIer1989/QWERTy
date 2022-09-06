@@ -555,7 +555,7 @@ max-height: 950px;
       margin-top: 20px;
     }
     .header-nav>li{
-      margin-right: 30px;
+      margin-right: 80px;
     }
     .content{
       margin-left:0;
@@ -574,7 +574,7 @@ max-height: 950px;
       margin-left: 60px;
     }
     .text{
-      font-size: 6px;
+      font-size: 5px;
     }
     .text::before{
       left: -60px;
