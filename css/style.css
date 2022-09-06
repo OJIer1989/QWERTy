@@ -554,6 +554,9 @@ max-height: 950px;
       margin: auto;
       margin-top: 20px;
     }
+    .content{
+      margin-top: 10px;
+    }
     .header-nav>li{
       margin-right: 80px;
     }
