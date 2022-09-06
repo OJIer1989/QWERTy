@@ -9,13 +9,16 @@ body{
   font-family: 'Open Sans', sans-serif;
   color: #fff;
 }
+img{
+  width: 100%;
+}
 .container-header{
 max-width: 1940px;
 margin: 0 auto;
 padding: 0 10px;
 }
 .container{
-  width: 1481px;
+max-width: 1481px;
   padding: 0 10px;
   margin: 0 auto;
 }
@@ -27,7 +30,8 @@ ul{
 }
 header{
   background: url(../image/bg-image.png),linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 77.78%);
- height: 1573px;
+   height: 1573px;
+/* min-height: 950px; */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -152,12 +156,16 @@ column-gap: 232px;
   margin-top: -100px;
 margin-bottom: 250px;
 }
-.tengara-img,
+
+.tengarra-img,
 .section-text{
   width: 50%;
 }
+.tengarra-img{
+  width: 570px;
+}
 .section-text{
-  height: 546px;
+  min-height: 546px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -188,7 +196,7 @@ margin-bottom: 250px;
   background: url(../image/bromo-bg.png),linear-gradient(360deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 109.55%);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 985px;
+ min-height: 985px;
   display: flex;
   align-items: flex-end;
 justify-content: space-between;
@@ -357,4 +365,300 @@ padding: 19px 31px 14px 20px;
   line-height: 32px;
   font-weight: 600;
   opacity: 0.5;
+}
+
+@media (max-width: 1380px) {
+  header{
+max-height: 950px;
+  }
+  .container{
+    padding: 0 60px;
+  }
+  .header-middle{
+    margin-top: 85px;
+  }
+  .content{
+    margin-right: 250px;
+}
+.tengarra-img{
+  max-height: 670px;
+}
+.button {
+  margin-top: 60px;
+}
+  .header-info{
+  font-size: 80px;
+}
+  .header-info>span{
+  font-size: 77px;
+}
+.tengarra{
+  column-gap: 80px;
+  margin-bottom: 150px;
+}
+.section-text{
+  max-height: 460px;
+  justify-content: space-around;
+}
+.text-info{
+  font-size: 50px;
+  line-height: 70px;
+}
+.bromo-body {
+  margin-bottom: 150px;
+}
+.footer-btn{
+  padding: 20px 55px;
+}
+.footer-social {
+  margin-bottom: 100px;
+}
+.bromo-body{
+  min-height: 870px;
+  background-position: bottom;
+}
+.bromo-text{
+  min-height: 370px;
+}
+.footer-logo{
+  font-size: 40px;
+  line-height: 40px;
+}
+}
+
+@media (max-width : 1250px){
+  .content{
+    margin-right: 160px;
+  }
+  .text::before{
+    width: 55px;
+    font-size: 15px;
+  }
+  .header-info{
+    font-size: 75px;
+    line-height: 90px;
+  }
+    .footer-info {
+      font-size: 18px;
+    }
+     .footer-link {
+      font-size: 15px;
+     }
+}
+@media(max-width: 900px){
+  .container{
+    padding: 0 15px;
+  }
+  .header-middle{
+    margin-top: 40px;
+  }
+  .content{
+   margin-right: 120px;
+  }
+  .text{
+    font-size: 11px;
+  }
+  .header-info{
+    font-size: 60px;
+  }
+  .header-info>span{
+    font-size: 50px;
+  }
+  .tengarra-img{
+    height: 100%;
+    width: 50%;
+  }
+  .text{
+    font-size: 10px;
+  }
+  .text::before{ 
+    left: -85px;
+    }
+  .enjoy-text{
+    margin-left: 88px;
+  }
+  .text-info {
+    font-size: 32px;
+    line-height: 38px;
+  }.section-text>span{
+     font-size: 12px;
+     line-height: 22px;
+  }
+  .bromo-text>.text-info{
+    font-size: 24px;
+    line-height: 0;
+   }
+  .brono-text{
+    min-height: 350px;
+    }
+  .bromo-text>span{
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    }
+  .footer-header{
+    padding: 12px 0 60px 0;
+  }
+  .footer-logo{
+    font-size: 35px;
+  }
+  .footer-btn{
+    padding: 15px 30px;
+  }
+    .form-body{
+      max-width: 300px;
+    }
+    .form-input{
+      width: calc(300px - 65px);
+    }
+    .form-btn{
+      width: 60px;
+      height: 60px;
+    }
+     .help>.footer-ul{
+        min-height: 150px;
+     }
+    .form-text {
+      font-size: 30px;
+    }
+    .form-info {
+      font-size: 13px;
+    }
+    .footer-link{
+      font-size: 12px;
+    }
+    .footer-ul{
+      min-height: 225px;
+      justify-content: space-evenly;
+    }
+    .footer-social{
+      margin-bottom: 60px;
+    }
+}
+
+
+
+
+@media(max-width :600px){
+    .container {
+        padding: 0 15px;
+      }
+    .header-top{
+      padding: 50px 20px;
+      flex-wrap: wrap;
+    }
+    .logo{
+      font-size: 20px;
+    }
+    nav{
+      order: 2;
+      margin: auto;
+      margin-top: 20px;
+    }
+    .header-nav>li{
+      margin-right: 30px;
+    }
+    .content{
+      margin-left:0;
+      margin-right: 40px;
+    }
+    .header-link{
+      font-size: 15px;
+    }
+    .follow-text{
+      font-size: 10px;
+    }
+    .fa-brands{
+      font-size: 10px;
+    }
+    .nature{
+      margin-left: 60px;
+    }
+    .text{
+      font-size: 6px;
+    }
+    .text::before{
+      left: -60px;
+      width: 40px;
+      height: 1px;
+    }
+    .header-info{
+      font-size: 45px;
+      line-height: 60px;
+    }
+    .header-info>span{
+    font-size: 30px;
+    }
+    .button{
+      margin-top: 15px;
+    }
+    .nature-btn{
+      font-size: 10px;  
+      margin-right: 0;
+    }
+    .fa-solid{
+      font-size: 10px;
+    }
+    .follow-us{
+      text-align: center;
+      margin-left: 0;
+    }
+    .enjoy-text{
+      font-size: 9px;
+      margin-left: 0;
+    }
+    .text-info{
+      font-size: 12px;
+      line-height: 30px;
+    }
+    .tengarra{
+    flex-wrap: wrap;
+    } 
+    .tengarra-img{
+      width: 100%;
+    }
+    .section-text>span{
+      font-size: 9px;
+      line-height: 20px;
+    }
+    .bromo-body{
+      min-height: 675px;
+    }
+    .section-text{
+      width:100%;
+      text-align: center;
+      min-height: 350px;
+    }
+    .section-text>.text::before{
+      left: 65px;
+      width: 20px;
+    }
+    .text-info{
+      font-size: 23px;
+    }
+    .tengarra{
+      margin-bottom: 65px;
+    }
+    .bromo-info::after{
+      height: 1px;
+      right: -35px;
+      width: 30px;
+    }
+      .text{
+        font-size: 8px;
+        text-align: center;
+      }
+      .bromo-text>.text::before{
+        width: 30px;
+        height: 1px;
+        left: -40px;
+      }
+     .bromo-text>.text-info{
+      font-size: 13px;
+     }
+     .bromo-text>span{
+      font-size: 9px;
+      line-height: 18px;
+     }
+
 }
