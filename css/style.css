@@ -88,7 +88,6 @@ margin-right: 396px;
 .follow-us{
   display: flex;
   flex-direction: column;
-  margin-left: 32px;
     margin-top: 52px;
 }
 .follow-us>a{
@@ -96,7 +95,7 @@ margin-right: 396px;
 }
 .follow-text{
   display: inline-block;
-transform: rotate(90deg);
+writing-mode: vertical-lr;
 font-size: 18px;
 line-height: 24px;
 font-weight: 600;
@@ -604,7 +603,6 @@ max-height: 950px;
       margin-left: 0;
     }
     .enjoy-text{
-      font-size: 9px;
       margin-left: 0;
     }
     .text-info{
@@ -645,7 +643,7 @@ max-height: 950px;
       width: 30px;
     }
       .text{
-        font-size: 8px;
+        font-size: 7px;
         text-align: center;
       }
       .bromo-text>.text::before{
@@ -661,6 +659,52 @@ max-height: 950px;
       line-height: 18px;
       font-weight: 400;
      }
-
+    .bromo-text{
+      min-height: 270px;
+     }
+    .section-text>.enjoy-text::before{
+ left: 40px;
+     }
+     .footer-header{
+      flex-wrap: wrap;
+      padding: 12px 0 50px 0;
+     }
+     .footer-logo{
+        text-align: center;
+          margin-bottom: 40px;
+          display: block;
+          width: 100%;
+      }
+      .get-started{
+        display: contents;
+      }
+     .get-started>span{
+      font-size: 17px;
+     }
+     .footer-btn{
+      padding: 10px 20px;
+     }
+     .footer-middle{
+     flex-wrap: wrap;
+       padding: 55px 0px 101px 0;
+     }
+     .form-body{
+      width: 380px;
+     }
+     .form-body>form{
+     width: 380px;
+     }
+     .form-text{
+      font-size: 29px;
+     }
+     .form-input{
+      height: 60px;
+        width: calc(392px - 77px);
+     }
+     .servises,
+     .about,
+     .help{
+      display: inline-block;
+     }
 }
 
